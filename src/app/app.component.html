@@ -278,14 +278,14 @@
       <tbody>
         <tr *ngFor="let stationGroup of list; let i = index">
           <td>{{ i + 1 }}</td>
-          <td *ngFor="let item of stationGroup">
-            {{ item.Station }}
+          <td *ngFor="let items of stationGroup">
+            {{ items.Station }}
           </td>
-          <td *ngFor="let item of stationGroup">
-            {{ item.Destination }}
+          <td *ngFor="let items of stationGroup">
+            {{ items.Destination }}
           </td>
-          <td *ngFor="let item of stationGroup">
-            {{ item.UpdateTime }}
+          <td *ngFor="let items of stationGroup">
+            {{ items.UpdateTime }}
           </td>
         </tr>
       </tbody>
