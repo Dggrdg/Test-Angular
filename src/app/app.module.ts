@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
+import { Axios } from 'axios';
 
 @NgModule({
   declarations: [
